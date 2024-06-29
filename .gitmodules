@@ -1,0 +1,3 @@
+[submodule "expUtils"]
+	path = expUtils
+	url = git@github.com:robo-nrl/expUtils.git

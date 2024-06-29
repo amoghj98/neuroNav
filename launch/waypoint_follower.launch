@@ -1,0 +1,21 @@
+<launch>
+        <param name="w1_x" value="-0.3" />
+        <param name="w1_y" value="0.7" />
+        <param name="w1_z" value="1.25" />
+        <param name="w2_x" value="1.0" />
+        <param name="w2_y" value="0.7" />
+        <param name="w2_z" value="0.0" />
+        <param name="w3_x" value="0.0" />
+        <param name="w3_y" value="0.7" />
+        <param name="w3_z" value="-1.0" />
+        <!-- <param name="w4_x" value="0.0" />
+        <param name="w4_y" value="0.7" />
+        <param name="w4_z" value="-1.0" /> -->
+        <param name="loop_flag" value="0" />
+        <param name="linear_vel" value="0.05" />
+        <param name="t_target" value="5.0" />
+
+  <node pkg="neuroNav" type="waypoint_follower.py" name="single_waypoint"  output="screen">
+  </node>
+
+</launch>

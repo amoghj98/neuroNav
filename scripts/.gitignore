@@ -1,0 +1,6 @@
+dvs/
+libcaer/
+
+*.pyc
+*.bak
+.rosinstall
